@@ -1,17 +1,18 @@
+MicroModal.init();
 /*=============== FILTERS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
-      tabContents = document.querySelectorAll('[data-content]')
+    tabContents = document.querySelectorAll('[data-content]')
 
-tabs.forEach(tab =>{
-    tab.addEventListener('click', () =>{
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target)
 
-        tabContents.forEach(tc =>{
+        tabContents.forEach(tc => {
             tc.classList.remove('filters__active')
         })
         target.classList.add('filters__active')
 
-        tabs.forEach(t =>{
+        tabs.forEach(t => {
             t.classList.remove('filter-tab-active')
         })
         tab.classList.add('filter-tab-active')
