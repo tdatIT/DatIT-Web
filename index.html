@@ -1,500 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
-    <link
-      rel="shortcut icon"
-      href="assets/img/favicon.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== REMIX ICONS ===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
 
-    <!--=============== CSS ===============-->
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <meta property="og:image" content="assets/img/Coursera.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1024" />
-    <meta property="og:image:height" content="1024" />
+  <!--=============== CSS ===============-->
 
-    <title>DatIT</title>
-  </head>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta property="og:image" content="assets/img/Coursera.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
 
-  <body>
-    <!--=============== HEADER ===============-->
-    <header class="profile container">
-      <div class="profile__container grid">
-        <div class="profile__data">
-          <div class="profile__border">
-            <div class="profile__perfil">
-              <img src="assets/img/bg-avt.png" alt="" />
-            </div>
-          </div>
+  <title>DatIT</title>
+</head>
 
-          <h2 class="profile__name">Tran Tien Dat</h2>
-
-          <h3 class="profile__profession">
-            Backend Developer<br />
-            <a href="mailto:tdat.it2k2@gmail.com">tdat.it2k2@gmail.com</a>
-          </h3>
-          <ul class="profile__social">
-            <a
-              href="https://www.instagram.com/tdat.hj"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-instagram-line"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/Datonephu/"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-facebook-box-line"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/tdatit2k2/"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-linkedin-box-line"></i>
-            </a>
-            <a
-              href="https://github.com/tdatIT"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-github-line"></i>
-            </a>
-          </ul>
-        </div>
-
-        <div class="profile__info grid">
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">4th</h3>
-            <p class="profile__info-description">
-              year <br />
-              student
-            </p>
-          </div>
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">6</h3>
-            <p class="profile__info-description">year <br />Coding<br /></p>
-          </div>
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">5</h3>
-            <p class="profile__info-description">
-              language <br />
-              programing
-            </p>
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="profile container">
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <img src="assets/img/bg-avt.png" alt="" />
           </div>
         </div>
 
-        <div class="profile__buttons">
-          <a href="./assets/pdf/CV-TienDat-Backend-10-2023.pdf" class="button" download>Resume<i class="ri-download-line"></i> </a>
-          <div class="profile__buttons-small">
-            <a
-              onclick="MicroModal.show('modal-1')"
-              data-bs-toggle="modal"
-              data-bs-target="#qr-zalo"
-              target="_blank"
-              class="button button__small button__gray"
-              data-micromodal-trigger="modal-1">
-              <img width="20" height="20" src="https://img.icons8.com/ios/50/zalo.png" alt="zalo"/>
-            </a>
+        <h2 class="profile__name">Tran Tien Dat</h2>
 
-            <a
-              href="https://m.me/Datonephu"
-              target="_blank"
-              class="button button__small button__gray"
-            >
-              <i class="ri-messenger-line"></i
-            ></a>
-          </div>
+        <h3 class="profile__profession">
+          Backend Developer<br />
+          <a href="mailto:tdat.it2k2@gmail.com">tdat.it2k2@gmail.com</a>
+        </h3>
+        <ul class="profile__social">
+          <a href="https://www.instagram.com/tdat.hj" target="_blank" class="profile__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.facebook.com/Datonephu/" target="_blank" class="profile__social-link">
+            <i class="ri-facebook-box-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tdatit2k2/" target="_blank" class="profile__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://github.com/tdatIT" target="_blank" class="profile__social-link">
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+      </div>
+
+      <div class="profile__info grid">
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">4th</h3>
+          <p class="profile__info-description">
+            year <br />
+            student
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">6</h3>
+          <p class="profile__info-description">year <br />Coding<br /></p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">5</h3>
+          <p class="profile__info-description">
+            language <br />
+            programing
+          </p>
         </div>
       </div>
-    </header>
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <section class="filters container">
-        <ul class="filters__content">
-          <button
-            class="filters__button filter-tab-active"
-            data-target="#projects"
-          >
-            Projects
-          </button>
-          <button class="filters__button" data-target="#skills">Skills</button>
-          <button class="filters__button" data-target="#certificate">
-            Certificates
-          </button>
-        </ul>
 
-        <div class="filters__sections">
-          <!--=============== PROJECTS ===============-->
-          <div
-            class="projects__content grid filters__active"
-            data-content
-            id="projects"
-          >
-            <article class="projects__card">
-              <img
-                src="assets/img/recauction.jpg"
-                alt=""
-                class="projects__img"
-              />
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle"
-                    >Spring Boot + Thymeleaf</span
-                  >
-                  <h3 class="projects__title">
-                    RecAuction (e-commerce web using auction)
-                  </h3>
-                  <a
-                    href="https://github.com/tdatIT/rec-auction-web"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-              <img src="assets/img/tda.png" alt="" class="projects__img" />
+      <div class="profile__buttons">
+        <a onclick="MicroModal.show('modal-2')" data-bs-toggle="modal" target="_blank" data-micromodal-trigger="modal-2"
+          class="button">Resume<i class="ri-download-line"></i> </a>
+        <div class="profile__buttons-small">
+          <a onclick="MicroModal.show('modal-1')" data-bs-toggle="modal" data-bs-target="#qr-zalo" target="_blank"
+            class="button button__small button__gray" data-micromodal-trigger="modal-1">
+            <img width="20" height="20" src="https://img.icons8.com/ios/50/zalo.png" alt="zalo" />
+          </a>
 
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">RESTfulAPI Spring Boot</span>
-                  <h3 class="projects__title">TDA Web Service (Backend)</h3>
-                  <a
-                    href="https://github.com/tdatIT/tda-store-restful-api"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-              <img
-                src="assets/img/streamlit.png"
-                alt=""
-                class="projects__img"
-              />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle"
-                    >Tensorflow + OpenCV + Streamlit</span
-                  >
-                  <h3 class="projects__title">
-                    Vietnamese Handwritten Recognition
-                  </h3>
-                  <a
-                    href="https://github.com/tdatIT/Vietnamese-handwritten-recognition"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <img
-                src="assets/img/tda-moblie.png"
-                alt=""
-                class="projects__img"
-              />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Jetpack Compose</span>
-                  <h3 class="projects__title">TDA Laptop App (Android)</h3>
-                  <a
-                    href="https://github.com/tdatIT/tda-mobile-app"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <img src="assets/img/pj3.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle"
-                    >JSP/Servlet (Team - Role Vendor)</span
-                  >
-                  <h3 class="projects__title">Latipe (e-commerce)</h3>
-                  <a
-                    href="https://github.com/tdatIT/latipe-web-project"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="projects__card">
-              <img src="assets/img/project5.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">And more...</span>
-                  <h3 class="projects__title">Repo in github</h3>
-                  <a
-                    href="https://github.com/tdatIT"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div class="skills__content grid" data-content id="skills">
-            <div class="skills__area">
-              <h3 class="skills__title">Frontend</h3>
-              <div class="skills__box">
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">HTML/CSS</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">JavaScript</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Bootstrap/JQuery</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="skills__area">
-              <h3 class="skills__title">Backend</h3>
-              <div class="skills__box">
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Java</h3>
-                      <span class="skills__level">Spring </span>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Go</h3>
-                      <span class="skills__level">Gin, Fiber</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Mobile (Kotlin)</h3>
-                      <span class="skills__level">Jetpack Compose</span>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">MySQL/SQLServer</h3>
-                      <span class="skills__level">Advance</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="skills__area">
-              <h3 class="skills__title">Tool</h3>
-              <div class="skills__box">
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Git</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Kafka/RabbitMQ</h3>
-                      <span class="skills__level">Basic </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Figma</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Jira</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="skills__area">
-              <h3 class="skills__title">Cloud/Server</h3>
-              <div class="skills__box">
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Google Cloud Platform</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Linux Server</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="projects__content grid filters"
-            data-content
-            id="certificate"
-          >
-            <article class="projects__card">
-              <img src="assets/img/udemy.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Udemy</span>
-                  <h3 class="projects__title">
-                    Spring & Hibernate for Beginners (includes Spring Boot)
-                  </h3>
-                  <a
-                    href="assets/img/udemy.jpg"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <img src="assets/img/50.png" alt="" class="projects__img" />
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Cloud Ace</span>
-                  <h3 class="projects__title">
-                    Google Cloud Fundamentals: Core Infrastructure
-                  </h3>
-                  <a
-                    href="assets/img/50.png"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="projects__card">
-              <img src="assets/img/Coursera.png" alt="" class="projects__img" />
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Cloud Ace</span>
-                  <h3 class="projects__title">
-                    Google Cloud Big Data and Machine Learning Fundamentals
-                  </h3>
-                  <a
-                    href="https://coursera.org/verify/DEZJU9PXH8PT"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--=============== FOOTER ===============-->
-    <footer class="footer container">
-      <span class="footer__copy"> TdatIT 07-2022 - updated 09/2023 </span>
-      <div class="elfsight-app-a95fbc8c-2de4-44ad-a12c-a11f6d5f764c"></div>
-    </footer>
-
-    <!-- [1] -->
-    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div
-          class="modal__container"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="modal-1-title"
-        >
-          <header class="modal__header">
-            <h2 class="modal__title" id="modal-1-title">ZaloQR Code</h2>
-            <button
-              class="modal__close"
-              aria-label="Close modal"
-              data-micromodal-close
-            ></button>
-          </header>
-          <main class="modal__content" id="modal-1-content">
-            <img src="./assets/img/zalo-qr.jpg" />
-          </main>
+          <a href="https://m.me/Datonephu" target="_blank" class="button button__small button__gray">
+            <i class="ri-messenger-line"></i></a>
         </div>
       </div>
     </div>
-    <!--=============== MAIN JS ===============-->
-    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  </header>
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <section class="filters container">
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters__button" data-target="#skills">Skills</button>
+        <button class="filters__button" data-target="#certificate">
+          Certificates
+        </button>
+      </ul>
+
+      <div class="filters__sections">
+        <!--=============== PROJECTS ===============-->
+        <div class="projects__content grid filters__active" data-content id="projects">
+          <article class="projects__card">
+            <img src="assets/img/recauction.jpg" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Spring Boot + Thymeleaf</span>
+                <h3 class="projects__title">
+                  RecAuction (e-commerce web using auction)
+                </h3>
+                <a href="https://github.com/tdatIT/rec-auction-web" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+            <img src="assets/img/tda.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">RESTfulAPI Spring Boot</span>
+                <h3 class="projects__title">TDA Web Service (Backend)</h3>
+                <a href="https://github.com/tdatIT/tda-store-restful-api" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+            <img src="assets/img/streamlit.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Tensorflow + OpenCV + Streamlit</span>
+                <h3 class="projects__title">
+                  Vietnamese Handwritten Recognition
+                </h3>
+                <a href="https://github.com/tdatIT/Vietnamese-handwritten-recognition"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img src="assets/img/tda-moblie.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Jetpack Compose</span>
+                <h3 class="projects__title">TDA Laptop App (Android)</h3>
+                <a href="https://github.com/tdatIT/tda-mobile-app" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img src="assets/img/pj3.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">JSP/Servlet (Team - Role Vendor)</span>
+                <h3 class="projects__title">Latipe (e-commerce)</h3>
+                <a href="https://github.com/tdatIT/latipe-web-project" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/project5.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">And more...</span>
+                <h3 class="projects__title">Repo in github</h3>
+                <a href="https://github.com/tdatIT" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="skills__content grid" data-content id="skills">
+          <div class="skills__area">
+            <h3 class="skills__title">Frontend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML/CSS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap/JQuery</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__area">
+            <h3 class="skills__title">Backend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__level">Spring </span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Go</h3>
+                    <span class="skills__level">Gin, Fiber</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Mobile (Kotlin)</h3>
+                    <span class="skills__level">Jetpack Compose</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">MySQL/SQLServer</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__area">
+            <h3 class="skills__title">Tool</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Kafka/RabbitMQ</h3>
+                    <span class="skills__level">Basic </span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Jira</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__area">
+            <h3 class="skills__title">Cloud/Server</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Google Cloud Platform</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Linux Server</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects__content grid filters" data-content id="certificate">
+          <article class="projects__card">
+            <img src="assets/img/udemy.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Udemy</span>
+                <h3 class="projects__title">
+                  Spring & Hibernate for Beginners (includes Spring Boot)
+                </h3>
+                <a href="assets/img/udemy.jpg" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img src="assets/img/50.png" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Cloud Ace</span>
+                <h3 class="projects__title">
+                  Google Cloud Fundamentals: Core Infrastructure
+                </h3>
+                <a href="assets/img/50.png" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img src="assets/img/Coursera.png" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Cloud Ace</span>
+                <h3 class="projects__title">
+                  Google Cloud Big Data and Machine Learning Fundamentals
+                </h3>
+                <a href="https://coursera.org/verify/DEZJU9PXH8PT" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy"> TdatIT 07-2022 - updated 09/2023 </span>
+    <div class="elfsight-app-a95fbc8c-2de4-44ad-a12c-a11f6d5f764c"></div>
+  </footer>
+
+  <!-- [1] -->
+  <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <header class="modal__header">
+          <h2 class="modal__title" id="modal-1-title">ZaloQR Code</h2>
+          <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+        </header>
+        <main class="modal__content" id="modal-1-content">
+          <img src="./assets/img/zalo-qr.jpg" />
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- [2] -->
+  <div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <header class="modal__header">
+          <h2 class="modal__title" id="modal-2-title">Download message</h2>
+        </header>
+        <main class="modal__content" id="modal-2-content">
+          <p>Please enter "hello" in the box to confirm the download 💞</p>
+          <input id="confirm-input" class="input-box" type="text">
+        </main>
+        <footer class="modal_footer">
+          <button id="confirm-btn" class="modal__btn modal__btn-primary">Yes✅</button>
+          <button class="modal__btn modal__btn-arler" data-micromodal-close>Cancel❌</button>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!--=============== MAIN JS ===============-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

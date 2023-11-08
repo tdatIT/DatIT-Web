@@ -505,6 +505,15 @@ img {
   }
 }
 
+.input-box {
+  width: 100%;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+  padding: .5rem;
+  border-color: rgba(0,0,0,.2);
+  display: block;
+}
+
 /**************************\
   Basic Modal Styles
 \**************************/
