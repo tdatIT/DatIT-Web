@@ -24,8 +24,8 @@ $("#confirm-btn").on('click', function () {
     if (input === 'hello') {
         $("#confirm-input").val("")
         link = document.createElement("a");
-        link.setAttribute("href", "/assets/pdf/CV-TienDat-Backend-10-2023.pdf");
-        link.setAttribute("download", "CV-TienDat-Backend-10-2023.pdf");
+        link.setAttribute("href", "/assets/pdf/CV-Backend-TienDat-01-2024.pdf");
+        link.setAttribute("download", "CV-Backend-TienDat-01-2024.pdf");
         link.click();
         link.remove()
         MicroModal.close('modal-2')
